@@ -1,0 +1,55 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# Jupyter/Colab
+.ipynb_checkpoints/
+*.ipynb_save
+*.ipynb_convert
+
+# Virtual environments
+venv/
+code/
+.env/
+.venv/
+env/
+*.env
+*.venv
+
+# Logs & temp files
+*.log
+*.tmp
+*.swp
+.DS_Store
+*.out
+
+# Model files / checkpoints
+*.bin
+*.h5
+*.ckpt
+*.pt
+*.pth
+*.onnx
+
+# Hugging Face cache
+~/.cache/huggingface/
+huggingface_cache/
+transformers_cache/
+datasets/
+
+# FAISS / vector stores
+*.faiss
+*.pkl
+
+# Colab / Google Drive
+*.gdrive
+drive/
+*.zip
+
+# IDE settings
+.vscode/
+.idea/
+*.iml
