@@ -100,3 +100,16 @@ pip install -r requirements.txt
 cd Chat-application
 pip install -r requirements.txt
 python app.py
+
+
+# ⚡ Build & Run
+
+# Build image
+docker build -t nlp-toolkit .
+
+# Run container
+docker run -it --rm nlp-toolkit
+
+
+# 👉 If you later add a Streamlit UI, just update the last line:
+CMD ["streamlit", "run", "app.py", "--server.port=8000", "--server.address=0.0.0.0"]
